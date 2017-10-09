@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>小应用清单</title>
+	<link href="https://cdn.bootcss.com/normalize/7.0.0/normalize.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css"/>
+</head>
+<body>
+	<div class="msg">
+		<div class="msg-content"></div>
+		<button class="confirmed" type="button">知道了</button>
+	</div>
+	<div class="container">
+		<h1>我的Todo</h1>
+		<form class="add-task" autocomplete="off">
+			<input name="content" type="text" placeholder="e.g. 下午买菜" autofocus="autofocus">
+			<button type="submit">Submit</button>
+		</form>
+		<ul class="task-list">
+			<!-- <li class="task-item">
+				<span><input type="checkbox"/></span>
+				<span>1 task-item</span>
+				<span>delete</span>
+				<span>detail</span>
+			</li> -->
+			
+		</ul>
+		<div class="task-detail-mask"></div>
+		<div class="task-detail">
+			<!-- <div class="content">
+				下午买菜
+			</div>
+		
+				<div class="desc">
+				<textarea></textarea>
+				</div>
+		
+			<div class="remind">
+				<input type="date"/>
+				
+			</div>-->
+		</div>
+	</div>
+
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/jquery.datetimepicker.full.min.js"></script>
+	<script src="js/store.everything.min.js"></script>
+	<script type="text/javascript" src="js/base.js">
+	</script>
+</body>
+</html>
